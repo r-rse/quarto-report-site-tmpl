@@ -1,0 +1,1 @@
+Sitemap: https://github.com/r-rse/quarto-report-site-tmpl/sitemap.xml
