@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "Report Title"
+  page-navigation: true
+  navbar:
+    logo: assets/logo/r-rse-logo2.png
+    logo-href: https://www.r-rse.eu/
+    pinned: true
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  page-footer:
+    center:
+      - text: "r-rse | Research Software Engineering Services in R"
+        href: https://www.r-rse.eu/
+  sidebar:
+    style: "docked"
+    title: 'Contents'
+    contents:
+      - text: "Report 1"
+        href: 01_Report_1.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    mainfont: 'Work Sans'
+    monofont: 'Cutive Mono'
+
+editor: visual
+
